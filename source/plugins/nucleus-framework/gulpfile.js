@@ -11,7 +11,7 @@ gulp.task('less', function () {
 			.pipe(gulp.dest('./build'));
 });
 
-gulp.task('minify-css', function () {
+gulp.task('minify-css', ['less'], function () {
 	return	gulp.src('./build/nucleus.css')
 			.pipe(minify({
 				minify: true,

@@ -37,9 +37,13 @@ Module: Grid
   margin-left: -1rem;
   margin-right: -1rem;
 }
-.g-grid.-gutterNone > .g-column {
+.g-grid.-gutterNone .g-column {
   padding-left: 0;
   padding-right: 0;
+}
+.g-grid.-gutterNone .g-grid {
+  margin-left: 0;
+  margin-right: 0;
 }
 .g-grid.-wrapNone {
   flex-wrap: nowrap;

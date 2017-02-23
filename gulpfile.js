@@ -86,6 +86,11 @@ gulp.task('minify-css', function () {
 			.pipe(gulp.dest('./build/stylesheets'));
 });
 
+gulp.task('watcher', function () {
+	gulp.watch(['./source/stylesheets/master.less', './source/**/*.php'], ['default']);
+})
+
 gulp.task('default', ['less', 'plugins', 'scripts', 'stylesheets', 'sync']);
+gulp.task('watch', ['default', 'watcher']);
 gulp.task('minify', ['minify-css', 'minify-js']);
 gulp.task('optimize_images', ['images']);

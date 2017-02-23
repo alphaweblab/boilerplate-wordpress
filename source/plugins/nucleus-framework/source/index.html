@@ -6,48 +6,74 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet/less" href="master.less" type="text/css" />
+	<link rel="stylesheet/less" href="nucleus.less" type="text/css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.js"></script>
 </head>
 <body>
 	<style>
 		body {
-			background-color: #fafafa;
+			background-color: #fff;
 		}
 		.g-container {
-			background-color: #f1f1f1;
+			background-color: rgba(0, 0, 0, 0.10);
 			height: 400px;
 		}
+		.g-grid {
+			height: 400px;
+		}
+		.g-column {
+			background-color: rgba(0, 0, 0, 0.10);
+		}
+		.column-1,
+		.column-2,
+		.column-3,
+		.column-4 {
+			height: 100%;
+		}
+		.column-1 {background-color: #ff6b6b;}
+		.column-2 {background-color: #f06595;}
+		.column-3 {background-color: #e599f7;}
+		.column-4 {background-color: #9775fa;}
 	</style>
 	<div class="g-container -typeFixed">
 		<div class="g-grid">
-			<div class="g-column -columnTablet-3 -offsetTablet-6 -orderMobile-2 _hiddenDesktopHD _hiddenDesktop">
-				Fixed - 1
+			<div class="g-column -columnDesktop-3">
+				<div class="column-1">&nbsp;</div>
 			</div>
-			<div class="g-column -columnTablet-3 -orderMobile-1">
-				Fixed - 2
+			<div class="g-column -columnDesktop-3">
+				<div class="column-2">&nbsp;</div>
+			</div>
+			<div class="g-column -columnDesktop-3">
+				<div class="column-3">&nbsp;</div>
+			</div>
+			<div class="g-column -columnDesktop-3">
+				<div class="column-4">&nbsp;</div>
 			</div>
 		</div>
 	</div>
 	<div class="g-container -typeFixed">
 		<div class="g-grid -gutterNone">
-			<div class="g-column -percentTablet-20">
-				Fixed
-			</div>
-			<div class="g-column -percentTablet-20">
-				Fixed
-			</div>
-			<div class="g-column -percentTablet-20">
-				Fixed
-			</div>
-			<div class="g-column -percentTablet-20">
-				Fixed
-			</div>
-			<div class="g-column -percentTablet-20">
-				Fixed
+			<div class="g-column -columnDesktop-12">
+				<div class="g-grid">
+					<div class="g-column -columnDesktop-12">
+						<div class="g-grid">
+							<div class="g-column -columnDesktop-3">
+								<div class="column-1">&nbsp;</div>
+							</div>
+							<div class="g-column -columnDesktop-3">
+								<div class="column-2">&nbsp;</div>
+							</div>
+							<div class="g-column -columnDesktop-3">
+								<div class="column-3">&nbsp;</div>
+							</div>
+							<div class="g-column -columnDesktop-3">
+								<div class="column-4">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="g-container -typeFluid">Fluid</div>
 </body>
 </html>

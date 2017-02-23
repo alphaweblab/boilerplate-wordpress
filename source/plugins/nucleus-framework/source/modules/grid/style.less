@@ -30,7 +30,8 @@ Module: Grid
 	flex-wrap: wrap;
 	margin-left: -@grid-gutter;
 	margin-right: -@grid-gutter;
-	&.-gutterNone > .g-column {padding-left: 0; padding-right: 0;}
+	&.-gutterNone .g-column {padding-left: 0; padding-right: 0;}
+	&.-gutterNone .g-grid {margin-left: 0; margin-right: 0;}
 	&.-wrapNone {flex-wrap: nowrap;}
 	&.-alignStart {align-items: flex-start;}
 	&.-alignEnd {align-items: flex-end;}
