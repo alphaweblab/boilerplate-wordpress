@@ -1,7 +1,7 @@
 {
   "name": "nucleus-framework",
   "description": "A simple to use, no bloat code, front-end framework.",
-  "main": "build/nucleus.css",
+  "main": "source/nucleus.scss",
   "authors": [
     "Alpha Weblab"
   ],
@@ -14,14 +14,14 @@
     "test",
     "tests"
   ],
-  "version": "0.1.2",
-  "_release": "0.1.2",
+  "version": "0.2.2",
+  "_release": "0.2.2",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.2",
-    "commit": "8bc31170232cb9b575d8490201da26344648c45b"
+    "tag": "v0.2.2",
+    "commit": "f43a7c330dae5c99c1da7ede700dabc71669e2ff"
   },
   "_source": "https://github.com/alphaweblab/nucleus-framework.git",
-  "_target": "*",
+  "_target": "~0.2.1",
   "_originalSource": "nucleus-framework"
 }

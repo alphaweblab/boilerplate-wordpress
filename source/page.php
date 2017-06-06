@@ -1,4 +1,9 @@
+<!-- Import header -->
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
-	<!-- <main> content -->
+
+<!-- Start main content -->
+
+<!-- End main content -->
+
+<!-- Import footer -->
 <?php get_footer(); ?>
