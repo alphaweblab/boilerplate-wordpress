@@ -1,5 +1,9 @@
 @import '../settings/variables';
 
+@function space($size) {
+	@return map-get($sizes, #{$size});
+}
+
 @mixin padding($side, $size) {
 	$type: padding;
 	$properties: map-get($sides, $side);

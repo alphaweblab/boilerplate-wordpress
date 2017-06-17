@@ -1,10 +1,9 @@
 @import '../settings/variables';
 
-@mixin typography($font: heading, $size: medium, $color: color(gray, 900), $weight: 400, $line-height: auto, $case: none) {
+@mixin typography($font: heading, $size: medium, $weight: 400, $line-height: auto) {
 	font-family: #{map-get($fonts, $font)};
 	font-weight: $weight;
 	text-transform: $case;
-	color: $color;
 	@if $font == heading {
 		@if is-length($size) == false {
 			font-size: #{map-get(map-get($typography-scales, heading), $size)};

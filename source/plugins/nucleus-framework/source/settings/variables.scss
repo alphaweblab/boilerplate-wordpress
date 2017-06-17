@@ -122,6 +122,42 @@ $color-dark-list: (
 	"800": transparentize($color-black, 0.20),
 	"900": transparentize($color-black, 0.10),
 );
+$color-primary-list: (
+	"0"	 : map-get($colors, primary),
+	"100": transparentize(map-get($colors, primary), 0.90),
+	"200": transparentize(map-get($colors, primary), 0.80),
+	"300": transparentize(map-get($colors, primary), 0.70),
+	"400": transparentize(map-get($colors, primary), 0.60),
+	"500": transparentize(map-get($colors, primary), 0.50),
+	"600": transparentize(map-get($colors, primary), 0.40),
+	"700": transparentize(map-get($colors, primary), 0.30),
+	"800": transparentize(map-get($colors, primary), 0.20),
+	"900": transparentize(map-get($colors, primary), 0.10),
+);
+$color-accent-list: (
+	"0"	 : map-get($colors, accent),
+	"100": transparentize(map-get($colors, accent), 0.90),
+	"200": transparentize(map-get($colors, accent), 0.80),
+	"300": transparentize(map-get($colors, accent), 0.70),
+	"400": transparentize(map-get($colors, accent), 0.60),
+	"500": transparentize(map-get($colors, accent), 0.50),
+	"600": transparentize(map-get($colors, accent), 0.40),
+	"700": transparentize(map-get($colors, accent), 0.50),
+	"800": transparentize(map-get($colors, accent), 0.60),
+	"900": transparentize(map-get($colors, accent), 0.70),
+);
+$color-secondary-list: (
+	"0"	 : map-get($colors, secondary),
+	"100": transparentize(map-get($colors, secondary), 0.90),
+	"200": transparentize(map-get($colors, secondary), 0.80),
+	"300": transparentize(map-get($colors, secondary), 0.70),
+	"400": transparentize(map-get($colors, secondary), 0.60),
+	"500": transparentize(map-get($colors, secondary), 0.50),
+	"600": transparentize(map-get($colors, secondary), 0.40),
+	"700": transparentize(map-get($colors, secondary), 0.50),
+	"800": transparentize(map-get($colors, secondary), 0.60),
+	"900": transparentize(map-get($colors, secondary), 0.70),
+);
 
 // Shadows
 $box-shadow-levels: (

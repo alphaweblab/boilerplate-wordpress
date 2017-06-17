@@ -14,14 +14,14 @@
     "test",
     "tests"
   ],
-  "version": "0.2.2",
-  "_release": "0.2.2",
+  "version": "0.3.0",
+  "_release": "0.3.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.2",
-    "commit": "f43a7c330dae5c99c1da7ede700dabc71669e2ff"
+    "tag": "v0.3.0",
+    "commit": "c1da0933140cf551182d19478c6dcb7d1d373c7b"
   },
   "_source": "https://github.com/alphaweblab/nucleus-framework.git",
-  "_target": "~0.2.1",
+  "_target": "~0.3.0",
   "_originalSource": "nucleus-framework"
 }
