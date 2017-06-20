@@ -25,6 +25,9 @@ add_theme_support( 'automatic-feed-links' );
 /* Enable Page Thumbnails */
 add_theme_support( 'post-thumbnails' );
 
+// Remove admin bar from website
+add_filter('show_admin_bar', '__return_false');
+
 /* Add Action Block */
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_script' );

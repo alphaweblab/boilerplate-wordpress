@@ -142,9 +142,9 @@ $color-accent-list: (
 	"400": transparentize(map-get($colors, accent), 0.60),
 	"500": transparentize(map-get($colors, accent), 0.50),
 	"600": transparentize(map-get($colors, accent), 0.40),
-	"700": transparentize(map-get($colors, accent), 0.50),
-	"800": transparentize(map-get($colors, accent), 0.60),
-	"900": transparentize(map-get($colors, accent), 0.70),
+	"700": transparentize(map-get($colors, accent), 0.30),
+	"800": transparentize(map-get($colors, accent), 0.20),
+	"900": transparentize(map-get($colors, accent), 0.10),
 );
 $color-secondary-list: (
 	"0"	 : map-get($colors, secondary),
@@ -154,9 +154,9 @@ $color-secondary-list: (
 	"400": transparentize(map-get($colors, secondary), 0.60),
 	"500": transparentize(map-get($colors, secondary), 0.50),
 	"600": transparentize(map-get($colors, secondary), 0.40),
-	"700": transparentize(map-get($colors, secondary), 0.50),
-	"800": transparentize(map-get($colors, secondary), 0.60),
-	"900": transparentize(map-get($colors, secondary), 0.70),
+	"700": transparentize(map-get($colors, secondary), 0.30),
+	"800": transparentize(map-get($colors, secondary), 0.20),
+	"900": transparentize(map-get($colors, secondary), 0.10),
 );
 
 // Shadows
